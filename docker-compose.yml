@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  greenshop.client:
+    image: ${DOCKER_REGISTRY-}greenshop
+    build:
+      context: .
+      dockerfile: GreenShop/Client/Dockerfile

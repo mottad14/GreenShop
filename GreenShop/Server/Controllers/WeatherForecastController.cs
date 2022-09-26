@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using GreenShop.Shared;
 
 namespace GreenShop.Server.Controllers;
 
